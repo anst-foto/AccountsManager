@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountsManager.App", "AccountsManager.App\AccountsManager.App.csproj", "{978FD5AF-B42C-40FF-B5D2-345B51DF732B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountsManager.DbLib", "AccountsManager.DbLib\AccountsManager.DbLib.csproj", "{6770AA52-05EA-4DCD-B547-12E98356957D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountsManager.Logger", "AccountsManager.Logger\AccountsManager.Logger.csproj", "{C6171B69-9288-4782-A839-091F2009EAB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountsManager.Config", "AccountsManager.Config\AccountsManager.Config.csproj", "{037C95C8-BB38-48E4-8AAE-2E710978FAEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{978FD5AF-B42C-40FF-B5D2-345B51DF732B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{978FD5AF-B42C-40FF-B5D2-345B51DF732B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{978FD5AF-B42C-40FF-B5D2-345B51DF732B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6770AA52-05EA-4DCD-B547-12E98356957D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6770AA52-05EA-4DCD-B547-12E98356957D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6770AA52-05EA-4DCD-B547-12E98356957D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6770AA52-05EA-4DCD-B547-12E98356957D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6171B69-9288-4782-A839-091F2009EAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6171B69-9288-4782-A839-091F2009EAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6171B69-9288-4782-A839-091F2009EAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6171B69-9288-4782-A839-091F2009EAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037C95C8-BB38-48E4-8AAE-2E710978FAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037C95C8-BB38-48E4-8AAE-2E710978FAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037C95C8-BB38-48E4-8AAE-2E710978FAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037C95C8-BB38-48E4-8AAE-2E710978FAEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
